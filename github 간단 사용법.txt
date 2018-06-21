@@ -19,8 +19,14 @@
  
  5. 변경된 파일 서버로 올리기
  $ git status # 변경된 파일 확인
- $ git add .
- $ git commit -m "설명"
+ $ git add .  # staging
+ $ git commit -m "설명", save local repository
  $ git push origin master
  
  github에서 문서 수정함.
+ 
+ 6. 기타 명령 및 정리
+  $ git branch # 브랜치 확인
+  $ git diff   # 변경된 문서 확인
+  # 4번 다른 사람 git 가져오기를 clone...  
+  
