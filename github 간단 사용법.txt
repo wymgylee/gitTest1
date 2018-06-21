@@ -1,0 +1,12 @@
+1. github에 repository 생성
+   https://github.com 접속
+   create repository
+   
+2. PC 폴더를 github repository에 연결
+ $ git init
+ $ git remote add origin [repository address]
+
+3. 파일을 github repository에 올리기
+ $ git status # 상태 확인
+ $ git add .  # 폴더안의 모든 파일을 트래킹
+ $ 
