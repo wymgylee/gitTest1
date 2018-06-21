@@ -9,4 +9,5 @@
 3. 파일을 github repository에 올리기
  $ git status # 상태 확인
  $ git add .  # 폴더안의 모든 파일을 트래킹
- $ 
+ $ git commit -m "설명"
+ $ git push origin master
