@@ -11,3 +11,14 @@
  $ git add .  # 폴더안의 모든 파일을 트래킹
  $ git commit -m "설명"
  $ git push origin master
+ 
+ 4. 다른 사람 git 가져오기
+ $ git init
+ $ git remote add origin [repository address]
+ $ git pull origin master
+ 
+ 5. 변경된 파일 서버로 올리기
+ $ git status # 변경된 파일 확인
+ $ git add .
+ $ git commit -m "설명"
+ $ git push origin master
